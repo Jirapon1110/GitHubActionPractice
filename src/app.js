@@ -13,9 +13,9 @@ const dayOfTheWeek = (date = new Date()) => {
 };
 
 const monthOfTheYear = (date = new Date()) => {
-  const month = [
+  const months = [
     "January",
-    "Februrary",
+    "February",
     "March",
     "April",
     "May",
@@ -28,7 +28,7 @@ const monthOfTheYear = (date = new Date()) => {
     "December",
   ];
 
-  return month[date.getMonth()];
+  return months[date.getMonth()];
 };
 
 try {
